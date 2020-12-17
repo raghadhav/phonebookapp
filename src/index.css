@@ -1,0 +1,130 @@
+.main-title {
+  padding-left: 200px;
+  border-style: solid;
+  background-color: #f7882f;
+  border-color: #f7882f;
+  color: white;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: Arial;
+}
+h3 {
+  color: #6b7a8f;
+}
+li {
+  color: grey;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.btn-delete {
+  background-color: #f7882f;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 10px;
+  text-align: center;
+  width: 80px;
+  height: 30px;
+}
+ul {
+  display: table;
+}
+
+li {
+  display: table-row;
+}
+
+li > div {
+  display: table-cell;
+}
+.text {
+  text-align: left;
+}
+.btn {
+  background-color: white;
+  border-color: white;
+  text-align: right;
+  padding-left: 20px;
+}
+.contact-list {
+  text-align: left;
+}
+.success {
+  color: green;
+  background: lightgrey;
+  font-size: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  -moz-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.fail {
+  color: red;
+  background: lightgrey;
+  font-size: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+@keyframes cssAnimation {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+input[type="text"],
+select {
+  width: 400px;
+  height: 40px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+button[type="submit"],
+select {
+  width: 400px;
+  height: 40px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  color: white;
+  box-sizing: border-box;
+  background-color: green;
+}
