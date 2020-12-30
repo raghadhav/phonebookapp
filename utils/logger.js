@@ -1,12 +1,9 @@
 const fs = require('fs');
+const stream = fs.createWriteStream("info.log", { flags: 'a' });
 const info = (...params) => {
     const date = new Date().toISOString();
     const outputString = '[' + date + '] ' + params.join(' ') + '\n';
-    console.log(outputString)
-    fs.appendFile('info.log', outputString, function (err) {
-        if (err) throw err;
-
-    });
+    stream.write(outputString)
 }
 
 const error = (...params) => {
