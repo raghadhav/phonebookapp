@@ -1,13 +1,21 @@
+#root {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#root > div {
+  width: 100%;
+}
+
 .main-title {
-  padding-left: 200px;
   border-style: solid;
   background-color: #f7882f;
   border-color: #f7882f;
   color: white;
-  width: 400px;
   height: 40px;
   border-radius: 10px;
   font-family: Arial;
+  text-align: center;
 }
 h3 {
   color: #6b7a8f;
@@ -106,7 +114,7 @@ li > div {
 }
 input[type="text"],
 select {
-  width: 400px;
+  width: 100%;
   height: 40px;
   padding: 12px 20px;
   margin: 8px 0;
@@ -117,7 +125,7 @@ select {
 }
 button[type="submit"],
 select {
-  width: 400px;
+  width: 100%;
   height: 40px;
   padding: 12px 20px;
   margin: 8px 0;
